@@ -1,6 +1,7 @@
 body{
   font-family: Open Sans, Arial, Helvetica, sans-serif;
   color: #999999;
+  line-height: 1.7;
 }
 
 .main-header{
@@ -8,6 +9,17 @@ body{
   top: 0;
   left: 0;
   height: 100%;
-  width: 35%;
-  background: orange;
+  width: 35%; 
+  padding: 124px 54px 72px;
+  box-sizing: border-box;
+  background-image: url(./images/overlay.png), url(./images/bg.jpg);
+  background-position: left top;
+  background-size: auto, cover;
+}
+
+.main-content{
+  width: 65%;
+  margin-left: 35%;
+  padding: 124px 54px 72px;
+  box-sizing: border-box;
 }
