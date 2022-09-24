@@ -80,6 +80,115 @@ code{
   color: #929292;
 }
 
+pre code{
+  display: block;
+}
+
+ul, ol{
+  margin: 0;
+  padding: 0;
+  padding-left: 1.1em;
+}
+
+li{
+  padding-left: .5em;
+}
+
+.ul-alternate{
+  list-style-type: none;
+  padding-left: 0; 
+}
+
+.ul-alternate li{
+  border-bottom: 2px solid #d8d8d8;
+  padding-left: 0;
+}
+
+.ul-alternate li:last-child{
+  border: 0; 
+}
+
+.ul-icons{
+  list-style-type: none;
+  padding-left: 0; 
+}
+
+.ul-icons li{
+  display: inline-block;
+  font-size: 2em;
+  color: #49bf9d;
+}
+
+input, label, textarea, select{
+  display: inline-block;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+input, textarea, select{
+  background: #ccc;
+  padding: 15px;
+  border-radius: 5px;
+  border: 3px solid transparent;
+  margin-bottom: 15px;
+}
+
+input[type="radio"], input[type="checkbox"]{
+  width: auto;
+}
+
+input:focus, textarea:focus{
+  border: 3px solid #49bf9d;
+  outline: none;
+}
+
+textarea{
+  height: 10em;
+}
+
+.button-default{
+  background-color: #49bf9d;
+  border: 2px solid #49bf9d;
+  color: white;
+  padding: .75em 1.5em;
+  border-radius: 5px;
+  font-size: .8em;
+  display: inline-block;
+  width: auto;
+}
+
+.button-default-stroke{
+  background-color: white;
+  border-color: #efefef;
+  color: inherit;
+}
+
+.button-default-small{
+  font-size: .65em;
+}
+
+.button-default-big{
+  font-size: 1em;
+}
+
+.button-default-full{
+  display: block;
+  text-align: center;
+}
+
+.imagem-link{
+  border: 0;
+}
+
+.table{
+  width: 100%;
+  margin: 0 0 2em 0;
+  border-collapse: collapse;
+  text-align: left;
+}
+
+
+
 .main-content{
   width: 65%;
   margin-left: 35%;
